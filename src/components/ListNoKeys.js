@@ -8,7 +8,7 @@ import React, { useState } from "react";
 
 const initialListUnstable = ["Learn React", "Learn Redux", "Understand lists"];
 
-export const ListUnstableKeys = () => {
+export const ListNoKeys = () => {
   const [list, setList] = useState(initialListUnstable);
 
   const handleClick = () => {
@@ -18,11 +18,14 @@ export const ListUnstableKeys = () => {
 
   return (
     <section className="component">
-      <h5>Unstable list keys example. Don't do it like this.</h5>
-      <p>Check first item, click the button "reverse list" and observe what happens in the UI</p>
+      <h5>List with no keys. Don't do it like this.</h5>
+      <p>
+        Check first item, click the button "reverse list" and observe what
+        happens in the UI
+      </p>
       <ul>
-        {list.map((item, index) => (
-          <li key={index}>
+        {list.map((item) => (
+          <li>
             <label>
               <input type="checkbox" />
               {item}

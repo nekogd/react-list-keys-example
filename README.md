@@ -1,3 +1,20 @@
+## What is it for?
+
+The repository to serve as an illustration to my Medium article.
+
+Link to the article: https://medium.com/@tymekluczko/real-life-react-list-example-why-index-as-a-key-is-an-anti-pattern-4f247a1bdd5
+
+A simple real life example why do we need stable keys in React Lists.
+
+There is also an example of anti-pattern in ListUnstableKeys.js
+
+## Live
+
+https://codesandbox.io/s/github/nekogd/react-list-keys-example
+
+
+## CRA stuff below
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

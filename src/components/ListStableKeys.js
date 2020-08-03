@@ -1,3 +1,8 @@
+/**
+ * The safe way to add key to React lists.
+ * Note the unique id in the initialList
+ */
+
 import React, { useState } from "react";
 
 const initialList = [

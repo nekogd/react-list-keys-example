@@ -1,11 +1,12 @@
 import React from "react";
-import { ListStableKeys, ListUnstableKeys } from "./components";
+import { ListStableKeys, ListUnstableKeys, ListNoKeys } from "./components";
 
 function App() {
   return (
     <div className="App">
-      <ListStableKeys />
+      <ListNoKeys />
       <ListUnstableKeys />
+      <ListStableKeys />
     </div>
   );
 }
